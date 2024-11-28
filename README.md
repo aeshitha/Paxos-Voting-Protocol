@@ -7,9 +7,9 @@ Description
 ------------
 This project implements a simulation of the Paxos consensus algorithm, where a set of council members (M1-M9) participate in reaching consensus for a given proposal. The system includes:
 
-*Council Members: Each acts as an acceptor and can propose candidates.
-*Learner: A centralized component that gathers votes and determines consensus.
-*Test Scenarios: Several scenarios are implemented to test the robustness of the Paxos protocol, such as simultaneous proposals, immediate responses, and varying delays.
+* Council Members: Each acts as an acceptor and can propose candidates.
+* Learner: A centralized component that gathers votes and determines consensus.
+* Test Scenarios: Several scenarios are implemented to test the robustness of the Paxos protocol, such as simultaneous proposals, immediate responses, and varying delays.
 
 --A Makefile is provided to simplify the process of building, cleaning, and running the program, as well as executing specific test cases.--
 
